@@ -1,0 +1,3 @@
+# Julia Function Scoping Bug
+
+This repository demonstrates an uncommon bug in Julia related to function scoping and file inclusion.  When including external files, functions can be unexpectedly overwritten if the same function name exists in multiple files, potentially leading to runtime errors or unintended behavior.  The `bug.jl` file shows the problem, and `bugSolution.jl` presents a solution using modules.
